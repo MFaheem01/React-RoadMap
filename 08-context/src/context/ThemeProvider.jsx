@@ -14,7 +14,9 @@ const ThemeProvider = (props) => {
 
   return (
     <div>
+
       {/* ThemeContext me dono bhej rahe hain: color aur setter */}
+
       <ThemeContext.Provider value={[Theme, setRandomTheme]}>
         {props.children}
       </ThemeContext.Provider>

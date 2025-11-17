@@ -1,4 +1,3 @@
-import { useState } from "react";
 
 import { Link } from "react-router-dom";
 
@@ -20,7 +19,9 @@ const Home = ({ Items, setItems }) => {
                 if (p.id === id) {
 
                     if (p.Counts < 5) {
+                        
                         return { ...p, Counts: p.Counts + 1 };
+
                     } else {
 
                         toast.error('Only Five Products Can Be Select', {

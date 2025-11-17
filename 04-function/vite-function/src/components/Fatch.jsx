@@ -26,11 +26,8 @@ const Fatch = () => {
 
         setoutput(response.data)
 
-
     }
-
-
-
+    
     return (
         <>
             <h1 className='text-center mt-26 mb-7 text-5xl'>Fatch API Practice</h1>

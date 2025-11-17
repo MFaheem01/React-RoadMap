@@ -19,9 +19,9 @@ const Gallery = () => {
 
 
     let printUserData = 'user data not found'
-    if (UserData.length > 0) {
+    if (UserData.lenght > 0) {
         printUserData = UserData.map((elem) => {
-            return <div key={elem.idx} className='mt-4'>
+            return <div key={elem.id} className='mt-4'>
                 <a href="elem.url" target='_blank'>
                     <div className='w-50 h-40 bg-amber-50 rounded-xl overflow-hidden'>
                         <img className='h-full w-full object-cover' src={elem.download_url} alt="" />

@@ -1,6 +1,6 @@
 import { useContext } from "react"
 import { Context } from "./components/Context"
-import ThemeProvider from "./components/ThemeProvider"
+
 function App() {
   const [Theme, setRandomTheme] = useContext(Context)
 
