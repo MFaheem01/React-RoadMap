@@ -1,5 +1,5 @@
 
-const GameHeader = ({ score, moves }) => {
+const GameHeader = ({ score, moves, onNewGame }) => {
     return (
         <>
             <div className='rounded-2xl shadow-2xl border-0 flex flex-col justify-center text-center m-auto w-100 mt-11 bg-gray-900'>
@@ -14,7 +14,7 @@ const GameHeader = ({ score, moves }) => {
                     </div>
                 </div>
                 <div className="border rounded-xl w-30 m-auto mb-4 p-1 bg-blue-950">
-                    <button className="font-semibold cursor-pointer">New Game</button>
+                    <button className="font-semibold cursor-pointer" onClick={onNewGame}>New Game</button>
                 </div>
             </div>
         </>
