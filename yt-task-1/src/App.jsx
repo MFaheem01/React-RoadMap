@@ -20,18 +20,23 @@ function App() {
 
 
   const handleCardClick = (index) => {
+
     // agar card already matched hai to ignore
+
     if (matched.includes(index)) return;
 
     // agar card already flipped hai to ignore
+
     if (flipped.includes(index)) return;
 
     // ✅ agar pehle se 2 cards flip hain to teesra flip na ho
+
     if (flipped.length === 2) return;
 
-    // counts value 
-    setMoves(moves + 1);
+    // counts value  
 
+    setMoves(moves + 1);
+    // previous data store krta hy 
     setFlipped((prev) => [...prev, index]);
   };
 
