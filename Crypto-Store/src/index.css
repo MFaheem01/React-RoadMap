@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+body {
+
+  background-color: gray;
+  scroll-behavior: smooth;
+
+}

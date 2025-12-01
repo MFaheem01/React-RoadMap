@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+.placeholder input::placeholder {
+    padding-left: 5px;
+}
+.placeholder input {
+    padding: 5px;
+}

@@ -7,7 +7,7 @@ export const Navbar = () => {
     const location = useLocation();
 
     return (
-        <nav className="navbar border font-medium bg-gray-900 border-gray-950 rounded-2xl flex justify-between w-170 mt-7 m-auto py-4 px-6 text-white">
+        <nav className="navbar border font-medium bg-gray-900 border-gray-950 rounded-2xl flex justify-between w-210 mt-7 m-auto py-4 px-6 text-white">
             {/* Brand / Logo */}
             <div className="navbar-brand">
                 <Link className="brand-link" to="/">

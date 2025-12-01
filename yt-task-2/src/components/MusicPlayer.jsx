@@ -84,7 +84,7 @@ export const MusicPlayer = () => {
 
     return (
 
-        <div className="m-auto flex flex-col justify-center mt-3 border border-gray-950 rounded-2xl bg-gray-900 text-white font-semibold w-100 py-5 px-4">
+        <div className="m-auto flex w-120 flex-col justify-center mt-3 border border-gray-950 rounded-2xl bg-gray-900 text-white font-semibold w-100 py-5 px-4">
             {/* Audio element */}
             <audio ref={audioRef} src={currentTrack.url} preload="metadata" crossOrigin="anonymous" />
             <div className="m-auto flex flex-col gap-4">
@@ -111,7 +111,7 @@ export const MusicPlayer = () => {
                 </div>
 
                 {/* Controls */}
-                <div className="m-auto">
+                <div className="m-auto text-2xl">
                     <button onClick={prevTrack}>⏮</button>
                     <button onClick={() => (isPlaying ? pause() : play())}>
                         {isPlaying ? "⏸" : "▶"}

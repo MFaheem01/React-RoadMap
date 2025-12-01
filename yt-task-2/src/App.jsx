@@ -18,7 +18,7 @@ function App() {
           <Navbar />
 
           {/* Main content area */}
-          <main className="app-main">
+          <main className="app-main flex justify-center gap-10">
             {/* Player section: music player */}
             <div className="player-section">
               <MusicPlayer />
