@@ -3,7 +3,8 @@
 
 body {
 
-  background-color: gray;
+  background-color: rgb(236, 234, 234);
   scroll-behavior: smooth;
+  color: black;
 
 }

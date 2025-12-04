@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="bg-gray-400 shadow-sm p-2">
+            <nav className="bg-gray-900 text-white shadow-sm p-2">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between h-16">
                         {/* Left side */}
@@ -27,11 +27,11 @@ const Navbar = () => {
                                 </button>
 
                                 <div
-                                    className="absolute mt-3 right-1 w-40 bg-white border rounded shadow opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300 origin-top">
+                                    className="absolute mt-3 right-1 w-40 border rounded shadow opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300 origin-top">
                                     <ul className="py-2">
-                                        <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer" onClick={() => { setCurrency("INR") }}>INR
+                                        <li className="px-4 py-2 cursor-pointer" onClick={() => { setCurrency("INR") }}>INR
                                         </li>
-                                        <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer" onClick={() => { setCurrency("USD") }} >USD</li>
+                                        <li className="px-4 py-2 cursor-pointer" onClick={() => { setCurrency("USD") }} >USD</li>
                                     </ul>
                                 </div>
                             </div>

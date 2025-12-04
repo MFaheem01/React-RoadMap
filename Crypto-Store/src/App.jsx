@@ -12,8 +12,8 @@ function App() {
 
       <Routes>
 
-        <Route path="/coins" element={<Coins />} />
         <Route path="/" element={<Home />} />
+        <Route path="/coins/:id" element={<Coins />} />
 
       </Routes>
 

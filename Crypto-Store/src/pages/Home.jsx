@@ -1,4 +1,7 @@
-import Carousel from '../components/Carousel'
+// import Carousel from '../components/Carousel'
+
+import Carousel from "../components/Carousel"
+import CoinsTable from "../components/CoinsTable"
 
 const Home = () => {
   return (
@@ -8,9 +11,12 @@ const Home = () => {
           <h1 className='text-5xl'>CRYPTO STORE</h1>
           <p className='text-xl'>Get all the Info regarding your favorite Crypto Currency</p>
         </div>
-        <div className='mt-3'>
+        <div className=''>
           <Carousel />
         </div>
+      </div>
+      <div>
+        <CoinsTable />
       </div>
     </>
   )
